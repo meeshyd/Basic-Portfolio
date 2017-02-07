@@ -21,21 +21,23 @@
 	</header>
 
 	<div class="container">	
-		<!-- <section id="contact"> -->
 
 			<div class="content">
 				<h2>Contact</h2>
 				
 				<form action="mailto:michellemdidier@gmail.com" method="post" enctype="text/plain">
-				Name<br>
-				<input type="text" name="name" value="John Smith"><br>
-				Email<br>
-				<input type="text" name="email" value="example@gmail.com"><br>
-				Message<br>
-				<textarea name="message"></textarea><br>
-				<input type="submit" value="Submit">
+				
+				<p class="formText">Name</p>
+				<input type="text" onfocus="if(this.value == 'John Smith') { this.value = ''; }" value="John Smith"/>
+				
+				<p class="formText">Email</p>
+				<input type="text" onfocus="if(this.value == 'example@gmail.com') { this.value = ''; }" value="example@gmail.com"/>
+				
+				<p class="formText">Message</p>
+				<textarea name="message"></textarea>
+				
+				<input type="submit" value="Submit" id="submit">
 				</form>
-
 			</div>
 
 			<aside class="connect">
@@ -52,7 +54,6 @@
 					</div>
 			</aside>
 		
-	<!-- 	</section> -->
 	</div>
 	
 	<footer>

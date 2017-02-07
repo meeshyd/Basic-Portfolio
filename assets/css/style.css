@@ -61,7 +61,7 @@ nav a:hover {
 
 p {
 	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
-	line-height: 200%;
+	line-height: 150%;
 }
 
 /*MAIN CONTENT CSS FOR ALL HTML STARTS HERE*/
@@ -182,6 +182,43 @@ h4 {
 /*PORTFOLIO CSS STOPS HERE*/
 
 /*CONTACT FORM CSS STARTS HERE*/
+input {
+	width: 590px;
+	color: #cccccc;
+	font-size: 14px;
+	margin-bottom: 20px;
+	outline: 0;
+}
+
+textarea {
+	border: 1px solid #dddddd;
+	width: 590px;
+  	height: 200px;
+  	margin-bottom: 20px;
+  	outline: 0;
+}
+
+.formText {
+	padding-bottom: 5px;
+}
+
+#submit {
+    background-color: #4aaaa5;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+	width: 120px;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: #777777;
+}
 /*CONTACT FORM CSS STOPS HERE*/
 
 
