@@ -133,6 +133,52 @@ h3 {
 /*CONNECT SIDEBAR CSS STOPS HERE*/
 
 /*PORTFOLIO CSS STARTS HERE*/
+.portfolioImg {
+	width: 275px;
+	height: 207px;
+	margin-bottom: 55px;
+}
+
+h4 {
+	position: relative;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	height: 60px;
+	font-size: 18px;
+	line-height: 60px;
+	text-align: center;
+	top: 65%;
+}
+
+#cat{
+	background-image: url('../images/cat.jpg');
+	background-size: 275px auto;
+	float: left;
+}
+
+#food {
+	background-image: url('../images/food.jpg');
+	background-size: 275px auto;
+	float: right;
+}
+
+#nature {
+	background-image: url('../images/nature.jpg');
+	background-size: 275px auto;
+	float: left;
+}
+
+#nightlife {
+	background-image: url('../images/nightlife.jpg');
+	background-size: 275px auto;
+	float: right;
+}
+
+#abstract {
+	background-image: url('../images/abstract.jpg');
+	background-size: 275px auto;
+	float: left;
+}
 /*PORTFOLIO CSS STOPS HERE*/
 
 /*CONTACT FORM CSS STARTS HERE*/
